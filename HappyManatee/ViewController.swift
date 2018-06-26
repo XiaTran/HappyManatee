@@ -175,7 +175,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     let request = GADRequest()
     request.testDevices = [kGADSimulatorID]
     //set up ad
-    adBanner.adUnitID = "ca-app-pub-2264605657544505/5184868569"
+    adBanner.adUnitID = "pub-3940256099942544/2934735716"
     adBanner.rootViewController = self
     adBanner.delegate = self
     adBanner.load(request)
