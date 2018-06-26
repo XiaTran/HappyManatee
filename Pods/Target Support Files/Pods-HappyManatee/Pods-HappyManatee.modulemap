@@ -1,0 +1,6 @@
+framework module Pods_HappyManatee {
+  umbrella header "Pods-HappyManatee-umbrella.h"
+
+  export *
+  module * { export * }
+}

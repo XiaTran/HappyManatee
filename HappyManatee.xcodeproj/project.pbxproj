@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162060250AB68EF089421220 /* Pods_HappyManatee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E27FBAAFE1DA190701E61A7 /* Pods_HappyManatee.framework */; };
+		CD0CDD0B20D3ED6100F4C458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0CDD0A20D3ED6100F4C458 /* Images.xcassets */; };
+		CD0CDD0E20D4012E00F4C458 /* yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD0CDD0D20D4012E00F4C458 /* yeah.mp3 */; };
+		CD0CDD1020D4013500F4C458 /* loser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD0CDD0F20D4013500F4C458 /* loser.mp3 */; };
+		CD0CDD1220D4013900F4C458 /* walking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD0CDD1120D4013900F4C458 /* walking.mp3 */; };
+		CD0CDD1420D4013F00F4C458 /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD0CDD1320D4013F00F4C458 /* fart.mp3 */; };
+		CD0CDD1620D40DBA00F4C458 /* littleidea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD0CDD1520D40DBA00F4C458 /* littleidea.mp3 */; };
+		CD57190C20B581FF002F71B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57190B20B581FF002F71B8 /* AppDelegate.swift */; };
+		CD57190E20B58200002F71B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57190D20B58200002F71B8 /* ViewController.swift */; };
+		CD57191120B58200002F71B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD57190F20B58200002F71B8 /* Main.storyboard */; };
+		CD57191320B58201002F71B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD57191220B58201002F71B8 /* Assets.xcassets */; };
+		CD57191620B58201002F71B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD57191420B58201002F71B8 /* LaunchScreen.storyboard */; };
+		CD61370520C5997900A1BF58 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61370420C5997900A1BF58 /* InfoViewController.swift */; };
+		CD61370720CACC4E00A1BF58 /* startPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61370620CACC4E00A1BF58 /* startPageViewController.swift */; };
+		CD6C0EFC20B84A920056D64B /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C0EFB20B84A920056D64B /* resultsViewController.swift */; };
+		CDD3308B20D028200039FDEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDD3308A20D028200039FDEA /* GoogleService-Info.plist */; };
+		CDD3308D20D11DD00039FDEA /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD3308C20D11DCF0039FDEA /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052DEDD45BB441E94C839205 /* Pods-HappyManatee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyManatee.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyManatee/Pods-HappyManatee.release.xcconfig"; sourceTree = "<group>"; };
+		5DEE4E2A2D9B1471A8B5DAE8 /* Pods-HappyManatee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyManatee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyManatee/Pods-HappyManatee.debug.xcconfig"; sourceTree = "<group>"; };
+		8E27FBAAFE1DA190701E61A7 /* Pods_HappyManatee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyManatee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0CDD0A20D3ED6100F4C458 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD0CDD0D20D4012E00F4C458 /* yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yeah.mp3; sourceTree = "<group>"; };
+		CD0CDD0F20D4013500F4C458 /* loser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loser.mp3; sourceTree = "<group>"; };
+		CD0CDD1120D4013900F4C458 /* walking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = walking.mp3; sourceTree = "<group>"; };
+		CD0CDD1320D4013F00F4C458 /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
+		CD0CDD1520D40DBA00F4C458 /* littleidea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = littleidea.mp3; sourceTree = "<group>"; };
+		CD57190820B581FF002F71B8 /* HappyManatee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyManatee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD57190B20B581FF002F71B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD57190D20B58200002F71B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD57191020B58200002F71B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD57191220B58201002F71B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD57191520B58201002F71B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD57191720B58201002F71B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD61370420C5997900A1BF58 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CD61370620CACC4E00A1BF58 /* startPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startPageViewController.swift; sourceTree = "<group>"; };
+		CD6C0EFB20B84A920056D64B /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
+		CDD3308A20D028200039FDEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDD3308C20D11DCF0039FDEA /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD57190520B581FF002F71B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD3308D20D11DD00039FDEA /* GoogleMobileAds.framework in Frameworks */,
+				162060250AB68EF089421220 /* Pods_HappyManatee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59195DCC2E9206BE344F74F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E27FBAAFE1DA190701E61A7 /* Pods_HappyManatee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD0CDD0C20D4010400F4C458 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				CD0CDD0F20D4013500F4C458 /* loser.mp3 */,
+				CD0CDD1320D4013F00F4C458 /* fart.mp3 */,
+				CD0CDD1520D40DBA00F4C458 /* littleidea.mp3 */,
+				CD0CDD1120D4013900F4C458 /* walking.mp3 */,
+				CD0CDD0D20D4012E00F4C458 /* yeah.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		CD5718FF20B581FF002F71B8 = {
+			isa = PBXGroup;
+			children = (
+				CD57190A20B581FF002F71B8 /* HappyManatee */,
+				CD57190920B581FF002F71B8 /* Products */,
+				E3A478DC773DCC3B5AD24283 /* Pods */,
+				59195DCC2E9206BE344F74F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD57190920B581FF002F71B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD57190820B581FF002F71B8 /* HappyManatee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD57190A20B581FF002F71B8 /* HappyManatee */ = {
+			isa = PBXGroup;
+			children = (
+				CD57190B20B581FF002F71B8 /* AppDelegate.swift */,
+				CD61370620CACC4E00A1BF58 /* startPageViewController.swift */,
+				CD57190D20B58200002F71B8 /* ViewController.swift */,
+				CD6C0EFB20B84A920056D64B /* resultsViewController.swift */,
+				CD61370420C5997900A1BF58 /* InfoViewController.swift */,
+				CD57190F20B58200002F71B8 /* Main.storyboard */,
+				CD57191220B58201002F71B8 /* Assets.xcassets */,
+				CD57191420B58201002F71B8 /* LaunchScreen.storyboard */,
+				CDD3308A20D028200039FDEA /* GoogleService-Info.plist */,
+				CD0CDD0C20D4010400F4C458 /* music */,
+				CDD3308C20D11DCF0039FDEA /* GoogleMobileAds.framework */,
+				CD57191720B58201002F71B8 /* Info.plist */,
+				CD0CDD0A20D3ED6100F4C458 /* Images.xcassets */,
+			);
+			path = HappyManatee;
+			sourceTree = "<group>";
+		};
+		E3A478DC773DCC3B5AD24283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DEE4E2A2D9B1471A8B5DAE8 /* Pods-HappyManatee.debug.xcconfig */,
+				052DEDD45BB441E94C839205 /* Pods-HappyManatee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD57190720B581FF002F71B8 /* HappyManatee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD57191A20B58201002F71B8 /* Build configuration list for PBXNativeTarget "HappyManatee" */;
+			buildPhases = (
+				82650859E02A2BA752278EA1 /* [CP] Check Pods Manifest.lock */,
+				CD57190420B581FF002F71B8 /* Sources */,
+				CD57190520B581FF002F71B8 /* Frameworks */,
+				CD57190620B581FF002F71B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyManatee;
+			productName = KeepThemHappyGame;
+			productReference = CD57190820B581FF002F71B8 /* HappyManatee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD57190020B581FF002F71B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Xia Tran";
+				TargetAttributes = {
+					CD57190720B581FF002F71B8 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD57190320B581FF002F71B8 /* Build configuration list for PBXProject "HappyManatee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5718FF20B581FF002F71B8;
+			productRefGroup = CD57190920B581FF002F71B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD57190720B581FF002F71B8 /* HappyManatee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD57190620B581FF002F71B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD57191620B58201002F71B8 /* LaunchScreen.storyboard in Resources */,
+				CD0CDD0B20D3ED6100F4C458 /* Images.xcassets in Resources */,
+				CD0CDD1420D4013F00F4C458 /* fart.mp3 in Resources */,
+				CD0CDD1620D40DBA00F4C458 /* littleidea.mp3 in Resources */,
+				CDD3308B20D028200039FDEA /* GoogleService-Info.plist in Resources */,
+				CD57191320B58201002F71B8 /* Assets.xcassets in Resources */,
+				CD57191120B58200002F71B8 /* Main.storyboard in Resources */,
+				CD0CDD1020D4013500F4C458 /* loser.mp3 in Resources */,
+				CD0CDD1220D4013900F4C458 /* walking.mp3 in Resources */,
+				CD0CDD0E20D4012E00F4C458 /* yeah.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82650859E02A2BA752278EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyManatee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD57190420B581FF002F71B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD57190E20B58200002F71B8 /* ViewController.swift in Sources */,
+				CD57190C20B581FF002F71B8 /* AppDelegate.swift in Sources */,
+				CD61370720CACC4E00A1BF58 /* startPageViewController.swift in Sources */,
+				CD61370520C5997900A1BF58 /* InfoViewController.swift in Sources */,
+				CD6C0EFC20B84A920056D64B /* resultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD57190F20B58200002F71B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD57191020B58200002F71B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD57191420B58201002F71B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD57191520B58201002F71B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD57191820B58201002F71B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD57191920B58201002F71B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD57191B20B58201002F71B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEE4E2A2D9B1471A8B5DAE8 /* Pods-HappyManatee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G74626U7MS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyManatee",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HappyManatee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtran.HappyManatee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fba58ad5-1a30-4362-abb3-fb992fb458c4";
+				PROVISIONING_PROFILE_SPECIFIER = HappyManateeDevelopment;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD57191C20B58201002F71B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 052DEDD45BB441E94C839205 /* Pods-HappyManatee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G74626U7MS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HappyManatee",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HappyManatee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtran.HappyManatee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ee640d3-8475-4b37-9373-a7fe1ea8ce9b";
+				PROVISIONING_PROFILE_SPECIFIER = HappyManateeDistribution;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD57190320B581FF002F71B8 /* Build configuration list for PBXProject "HappyManatee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD57191820B58201002F71B8 /* Debug */,
+				CD57191920B58201002F71B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD57191A20B58201002F71B8 /* Build configuration list for PBXNativeTarget "HappyManatee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD57191B20B58201002F71B8 /* Debug */,
+				CD57191C20B58201002F71B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD57190020B581FF002F71B8 /* Project object */;
+}

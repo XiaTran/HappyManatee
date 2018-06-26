@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad3-hX-FZm">
+                                <rect key="frame" x="20" y="110" width="335" height="231"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smallscroll2" translatesAutoresizingMaskIntoConstraints="NO" id="zBV-W0-pR2">
+                                        <rect key="frame" x="10" y="10" width="315" height="221"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFH-pV-OUq">
+                                        <rect key="frame" x="102" y="109" width="130" height="22"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Happy Manatee">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.58105844259999995" green="0.12855249639999999" blue="0.57453137639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="20" name="MarkerFelt-Thin"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="zBV-W0-pR2" firstAttribute="leading" secondItem="ad3-hX-FZm" secondAttribute="leading" constant="10" id="CLg-dH-9nu"/>
+                                    <constraint firstItem="zBV-W0-pR2" firstAttribute="centerX" secondItem="ad3-hX-FZm" secondAttribute="centerX" id="ROL-x0-KnA"/>
+                                    <constraint firstItem="KFH-pV-OUq" firstAttribute="centerX" secondItem="ad3-hX-FZm" secondAttribute="centerX" id="S9N-fV-iQp"/>
+                                    <constraint firstItem="zBV-W0-pR2" firstAttribute="centerY" secondItem="ad3-hX-FZm" secondAttribute="centerY" constant="5" id="VBh-wK-xOZ"/>
+                                    <constraint firstItem="zBV-W0-pR2" firstAttribute="top" secondItem="ad3-hX-FZm" secondAttribute="top" constant="10" id="wVI-er-bb5"/>
+                                    <constraint firstItem="KFH-pV-OUq" firstAttribute="centerY" secondItem="ad3-hX-FZm" secondAttribute="centerY" constant="4.5" id="x2C-2t-Yzh"/>
+                                    <constraint firstAttribute="bottom" secondItem="zBV-W0-pR2" secondAttribute="bottom" id="yoK-Dj-a0g"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Xia Tran 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kq-IR-LGP">
+                                <rect key="frame" x="90.5" y="626" width="193.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Kq-IR-LGP" secondAttribute="bottom" constant="20" id="2Ng-pe-Fep"/>
+                            <constraint firstAttribute="bottom" secondItem="ad3-hX-FZm" secondAttribute="bottom" constant="326" id="8EK-uq-uvZ"/>
+                            <constraint firstItem="ad3-hX-FZm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="M6o-JQ-oMS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ad3-hX-FZm" secondAttribute="trailing" constant="20" id="NmC-Vg-SBV"/>
+                            <constraint firstItem="ad3-hX-FZm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hVF-2N-Gv4"/>
+                            <constraint firstItem="0Kq-IR-LGP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xhB-Ya-w05"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smallscroll2" width="640" height="480"/>
+    </resources>
+</document>
